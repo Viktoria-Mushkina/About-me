@@ -73,8 +73,6 @@ img{
 .about_me img{
  margin-top: 93px;
 }
-.about_me__text {
-}
 .about_me__bottom {
  font-size: 55px;
  line-height: 55px;
@@ -98,3 +96,47 @@ img{
  bottom: 0;
  top: 385px;
 }
+/* Skills */
+.skills {
+ margin-top: 84px;
+ position: relative;
+}
+.carpet2{
+ margin-top: 55px; 
+}
+.skills__flex{
+ display: flex;
+}
+.skills .text-h2 {
+ text-align: center;
+ margin: 0;
+}
+.skills__grid {
+ margin-top: 81px;
+ padding: 0 41px;
+ display: grid;
+ grid-template-columns: repeat(2,478px);
+ gap: 100px;
+}
+.skills__grid-item p {
+ border-radius: 100px;
+ background: var(--text-color);
+ color: var(--bg-color);
+ font-size: 32px;
+ width: 478px;
+ height: 66px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.percent {
+ margin-top: 16px;
+ font-size: 43px;
+ text-align: center;
+}
+.Misha{
+ position: absolute;
+ right: 0;
+ top: 450px;
+}
+
