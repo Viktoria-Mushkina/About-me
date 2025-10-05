@@ -1,0 +1,100 @@
+@font-face {
+ font-family: 'MADETheArtistSans';
+ src: url(../fonts/madetheartistsans.ttf);
+}
+@font-face {
+	font-family: 'MADETheArtistScript';
+ src: url('../fonts/madetheartistscript.ttf') format('truetype');
+}
+body{ 
+ background-color: var(--bg-color);
+ font-family: 'MADETheArtistSans';
+ font-weight: 400;
+ color: var(--text-color);
+}
+:root{
+ --bg-color:#E8E3E1;
+ --text-color:rgba(129, 102, 85, 1);
+ --accent-color:rgba(130, 24, 17, 1);
+}
+.container{
+ max-width: 1440px;
+ margin: 0 auto;
+}
+img{
+ display: block;
+ max-width: 100%;
+ height: auto;
+ align-self: center;
+}
+/* Text */
+.text-h1 {
+ font-size: 200px;
+}
+.text-h2 {
+ font-size: 150px;
+ margin-top: 9px;
+ margin-left: 44px;
+ line-height: 150px;
+}
+.text-p {
+ font-size: 55px;
+ max-width: 735px;
+ margin-top: 28px;
+}
+/* Header */
+.header {
+ margin-top: 294px;
+ text-align: center;
+}
+.header img{
+ margin: 0 auto;
+}
+.header p{
+ color: var(--accent-color);
+ font-family: 'MADETheArtistScript';
+ font-size: 100px;
+ line-height: 100px;
+}
+/* About me */
+.about_me {
+ margin-top: 426px;
+ padding: 0 0 0 55px;
+ position: relative;
+}
+.about_me span{
+ text-decoration: underline;
+}
+.about_me__flex {
+ display: flex;
+ justify-content: space-between;
+ gap: 95px;
+}
+.about_me img{
+ margin-top: 93px;
+}
+.about_me__text {
+}
+.about_me__bottom {
+ font-size: 55px;
+ line-height: 55px;
+ max-width: 1240px;
+ margin: 42px 0 0 46px;
+}
+.stamp{
+ position: absolute;
+ right: 37px;
+}
+.numbers{
+ color: var(--accent-color);
+ position: absolute;
+ font-size: 40px;
+ width: 445px;
+ height: 46px;
+ transform: rotate(90deg);
+ letter-spacing: 0.54em;
+ right: 0;
+ left: 1180px;
+ bottom: 0;
+ top: 385px;
+}
